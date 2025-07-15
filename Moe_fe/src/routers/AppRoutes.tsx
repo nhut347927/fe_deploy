@@ -46,15 +46,8 @@ const AppRoutes = () => {
               </KeepAlive>
             }
           />
-          <Route
-            path="profile"
-            element={
-              <KeepAlive id="profile">
-                <ProfilePage />
-              </KeepAlive>
-            }
-          />
-  <Route path="about" element={<AboutPage />} />
+          <Route path="profile" element={<ProfilePage />} />
+          <Route path="about" element={<AboutPage />} />
           <Route path="upload" element={<UploadPage />} />
           <Route path="*" element={<NotFound />} />
         </Route>
